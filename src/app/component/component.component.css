@@ -3,3 +3,7 @@ video {
     height: 50vh;
     border: 1px solid black;
 }
+
+p {
+    font-size: 3vh;
+}

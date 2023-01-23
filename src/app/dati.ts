@@ -6,7 +6,7 @@ export const valori: {title:string, pathVideo:string, text:string}[] =
         text: `Modern digital maps are made of billions of vector points plotted in geographical space, accompained by an enormous amount of
         data that gives all types of informations such as road width, speed limits, height and weight restriction and so on.
         There is a feature called "postcode lookup" that allows you to find a destinations quickly, live traffic informations,
-        list of point of interest and physical geographic features.
+        list of point of interest and physical geographic features.<br>
         In order to provide this big amount of informations, the satnav companies have to update their maps constantly and 
         they need to check their accuracy.`
     },
