@@ -1,7 +1,7 @@
 a {
     text-decoration: none;
     color: #999;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 a:hover {
     color: #333;
@@ -13,9 +13,11 @@ nav {
 }
 .active {
     font-size: 50px;
+    color: black;
 }
 
 main {
+    margin: auto;
     text-align: center;
     width: 50%;
 }

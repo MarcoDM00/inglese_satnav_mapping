@@ -16,9 +16,13 @@
 -->
 
 <nav>
-    <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Default</a>
-    <a [routerLink]="['/c1']" routerLinkActive="active">C1</a>
-    <a [routerLink]="['/c2']" routerLinkActive="active">C2</a>
+    <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+    <a [routerLink]="['/c1']" routerLinkActive="active">Mappa</a>
+    <a [routerLink]="['/c2', 0]" routerLinkActive="active">Introduction</a>
+    <a [routerLink]="['/c2', 1]" routerLinkActive="active">Tom Tom</a>
+    <a [routerLink]="['/c2', 2]" routerLinkActive="active">Google Maps</a>
+    <a [routerLink]="['/c2', 3]" routerLinkActive="active">OpenStreetMap</a>
+    <a [routerLink]="['/c3']" routerLinkActive="active">Glossary</a>
 </nav>
 
 <main>

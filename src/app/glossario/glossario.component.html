@@ -1,0 +1,13 @@
+<div *ngFor="let i of dati">
+    <h1>{{i.title}}</h1>
+    <table>
+        <tr>
+           <th>Terms</th> 
+           <th>Meanings</th>
+        </tr>
+        <tr *ngFor="let p of i.parole">
+            <td>{{p.termini}}</td>
+            <td>{{p.significato}}</td>
+        </tr>
+    </table>
+</div>
