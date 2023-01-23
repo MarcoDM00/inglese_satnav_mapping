@@ -1,0 +1,23 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { OpenstreetComponent } from './openstreet.component';
+
+describe('OpenstreetComponent', () => {
+  let component: OpenstreetComponent;
+  let fixture: ComponentFixture<OpenstreetComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ OpenstreetComponent ]
+    })
+    .compileComponents();
+
+    fixture = TestBed.createComponent(OpenstreetComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
