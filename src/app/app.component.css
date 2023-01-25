@@ -1,7 +1,13 @@
+body {
+    margin: 0;
+}
 a {
     text-decoration: none;
     color: #999;
     margin-right: 40px;
+}
+a:not(.active) {
+    padding: 20px;
 }
 a:hover {
     color: #333;
@@ -10,6 +16,7 @@ nav {
     margin: 2em;
     text-align: center;
     font-family: Arial;
+    background-color: lightblue;
 }
 .active {
     font-size: 50px;
